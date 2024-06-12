@@ -1,4 +1,4 @@
-최초등록-수정04
+최초등록-수정05 - 마스터는 다시 계속 갈길가고 있음01..
 
 --------------------------------------------------------------------------
 -- ------------------------------- git ------------------------------- --
@@ -8,21 +8,3 @@
 파일 추가   : git add .
 COMMIT      : git commit -m "[V1][KR][임시] 1. 준공자료등록개선 테스트용 (회원가입, 준공자료대상등록, 감리결과등록, 감독관검수체크리스트 등)"
 PUSH        : git push origin archivist_kr_develop_for_test01
-
-브랜치 삭제 : git branch -d 삭제할브랜치명   (변경사항있으며 삭제안됨... 변경사항 무시 강제 삭제는 -D 옵션)
-
-
-"[V1][KR][임시] 1. 준공자3241243123 (등록요청 기존화면에 감리자검수여부 추가)"
-
-[V1][KR][임시] 1. 준공자료등록개선 테스트용 (localhost제거, 회원가입유효성체크 등 수정)
-
-[V1][KR][임시] 1. 준공자료등록개선 소스머지용 ( 감리확인필요여부 라디오버튼 ID 충돌 제거 )
-
-git diff --name-status origin/main
-git diff --name-only origin/main
-git log --branches --not --remotes
-git log --oneline --graph --decorate
-(Push하지 않은 Commit 확인)git log origin/main..main
-(Push하지 않은 파일 목록 확인)git diff --stat --cached origin/main
-(Push하지 않은 파일 코드 차이 확인)git diff origin/main
-(Push하지 않은 파일 전체 경로 확인) git diff --numstat origin/main
