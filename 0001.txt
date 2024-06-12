@@ -1,4 +1,4 @@
-최초등록-수정03
+최초등록-수정04
 
 --------------------------------------------------------------------------
 -- ------------------------------- git ------------------------------- --
@@ -12,7 +12,7 @@ PUSH        : git push origin archivist_kr_develop_for_test01
 브랜치 삭제 : git branch -d 삭제할브랜치명   (변경사항있으며 삭제안됨... 변경사항 무시 강제 삭제는 -D 옵션)
 
 
-"[V1][KR][임시] 1. 준공자료등록개선 테스트용 (등록요청 기존화면에 감리자검수여부 추가)"
+"[V1][KR][임시] 1. 준공자3241243123 (등록요청 기존화면에 감리자검수여부 추가)"
 
 [V1][KR][임시] 1. 준공자료등록개선 테스트용 (localhost제거, 회원가입유효성체크 등 수정)
 
@@ -26,41 +26,3 @@ git log --oneline --graph --decorate
 (Push하지 않은 파일 목록 확인)git diff --stat --cached origin/main
 (Push하지 않은 파일 코드 차이 확인)git diff origin/main
 (Push하지 않은 파일 전체 경로 확인) git diff --numstat origin/main
-
-git clone [URL]:  원격 저장소의 코드를 로컬로 복제합니다.
-git pull: 원격 저장소에서 최신 변경 내용을 가져와 로컬 저장소를 업데이트합니다.
-git add [파일]: 변경된 파일을 스테이징 영역에 추가합니다.
-git commit -m "메시지":  스테이징 영역의 변경 내용을 커밋하여 로컬 저장소에 저장합니다.
-git branch: 브랜치 목록을 보여줍니다.
-git checkout -b [브랜치명]: 다른 브랜치로 전환합니다.
-git merge [브랜치명]: 다른 브랜치를 현재 브랜치로 병합합니다.
-git remote -ㅁㅇㄹ나ㅓ;ㅓㄴㅁㅇㄹ격 저장소 목록과 URL을 보여줍니다.
-git diff: 작업 디렉토리의 변경 내용을 확인합니다.
-git status: 작업 디렉토리의 상태를 확인합니다.
-git remote add [이름] [URL]: 새로운 원격 저장소를 추가합니다.
-git remote remove [이름]: 원격 저장소를 제거합니다.
-git log: 커밋 로그를 확인합니다.
-git log --oneline: 간략한 커밋 로그를 확인합니다.
-git diff [브랜치1] [브랜치2]: 두 브랜치 간의 차이를 확인합니다.
-git checkout -b [새로운_브랜치명]: 새로운 브랜치를 만들고 해당 브랜치로 전환합니다.
-git tag [태그명]: 커밋에 태그를 추가합니다.
-git tag -a [태그명] -m "메시지": 주석을 포함한 태그를 추가합니다.
-git config --global user.name "[사용자_이름]": 전역 사용자 이름 설정.
-git config --global user.email "[이메일_주소]": 전역 사용자 이메일 설정.
-git fetch: 원격 저장소의 변경 내용을 가져오지만 로컬에는 반영하지 않습니다.
-git stash: 현재 변경 내용을 임시로 보관합니다.
-git remote show [원격_저장소_이름]: 원격 저장소의 정보를 확인합니다.  <--- git remote show origin
-git branch -d [브랜치명]: 로컬 브랜치를 삭제합니다.
-git push origin --delete [브랜치명]: 원격 저장소에서 브랜치를 삭제합니다.
-git merge --no-ff [브랜치명]: 브랜치를 병합할 때 Fast-Forward 병합을 하지 않습니다.
-git cherry-pick [커밋_해시]: 특정 커밋을 현재 브랜치로 가져옵니다.
-
-git rebase [대상_브랜치]: 현재 브랜치를 대상 브랜치로 리베이스합니다.
-git blame [파일_이름]: 파일의 각 줄을 누가 작성했는지 확인합니다.
-git clean -n: 작업 디렉토리에서 추적되지 않는 파일 목록을 보여줍니다.
-git revert [커밋_해시]: 특정 커밋을 취소하는 새로운 커밋을 생성합니다.
-git show [커밋_해시]: 특정 커밋의 변경 내용을 확인합니다.
-git submodule update --init: 서브모듈을 초기화하고 업데이트합니다.
-git clean -f:  작업 디렉토리에서 추적되지 않는 파일을 삭제합니다.
-
-
