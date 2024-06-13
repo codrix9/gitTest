@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 wind에서 또 고침..
 커밋하고 pull 해서 충돌난거 고쳐서 또 커밋하고.. push 하는 듯..
+=======
+최초등록 - 머지함 - 01 .. --> 갈길가던 브랜치에 갈길가던 마스터가 병합됩
+내가 여기서 고치면 충돌인데..
+wind 에서 브랜치 수정022222222 두번이나 고침..
+이렇게 다 살리는걸로 머지했다 치자..
+서버에서 고친줄 모르고 로컬에서도 고침..
+충돌나더라도 pull 로 땡겨놓고... 머지해서 커밋, push 하면 된다는거네..
+>>>>>>> 0c84199faf5140d367e0a5ddbbfdc7a2e7bd35c4
 
 --------------------------------------------------------------------------
 -- ------------------------------- git ------------------------------- --
@@ -21,10 +30,15 @@ PUSH        : git push origin archivist_kr_develop_for_test01
 
 git diff --name-status origin/main
 git diff --name-only origin/main
-git log --branches --not --remotes
+요기도고치고git log --branches --not --remotes
 git log --oneline --graph --decorate
 (Push하지 않은 Commit 확인)git log origin/main..main
 (Push하지 않은 파일 목록 확인)git diff --stat --cached origin/main
 (Push하지 않은 파일 코드 차이 확인)git diff origin/main
 (Push하지 않은 파일 전체 경로 확인) git diff --numstat origin/main
+<<<<<<< HEAD
 조기도 고치고2..
+=======
+조기도고치고
+조기도 고치고..
+>>>>>>> 0c84199faf5140d367e0a5ddbbfdc7a2e7bd35c4
