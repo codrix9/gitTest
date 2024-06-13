@@ -1,9 +1,4 @@
-최초등록 - 머지함 - 01 .. --> 갈길가던 브랜치에 갈길가던 마스터가 병합됩
-내가 여기서 고치면 충돌인데..
-wind 에서 브랜치 수정022222222 두번이나 고침..
-이렇게 다 살리는걸로 머지했다 치자..
-서버에서 고친줄 모르고 로컬에서도 고침..
-충돌나더라도 pull 로 땡겨놓고... 머지해서 커밋, push 하면 된다는거네..
+받을놈은 엉망이겠지???
 
 --------------------------------------------------------------------------
 -- ------------------------------- git ------------------------------- --
@@ -14,7 +9,7 @@ wind 에서 브랜치 수정022222222 두번이나 고침..
 COMMIT      : git commit -m "[V1][KR][임시] 1. 준공자료등록개선 테스트용 (회원가입, 준공자료대상등록, 감리결과등록, 감독관검수체크리스트 등)"
 PUSH        : git push origin archivist_kr_develop_for_test01
 
-요기도 고치고 브랜치 삭제 : git branch -d 삭제할브랜치명   (변경사항있으며 삭제안됨... 변경사항 무시 강제 삭제는 -D 옵션)
+브랜치 삭제 : git branch -d 삭제할브랜치명   (변경사항있으며 삭제안됨... 변경사항 무시 강제 삭제는 -D 옵션)
 
 
 "[V1][KR][임시] 1. 준공자3241243123 (등록요청 기존화면에 감리자검수여부 추가)"
@@ -25,11 +20,9 @@ PUSH        : git push origin archivist_kr_develop_for_test01
 
 git diff --name-status origin/main
 git diff --name-only origin/main
-요기도고치고git log --branches --not --remotes
+git log --branches --not --remotes
 git log --oneline --graph --decorate
 (Push하지 않은 Commit 확인)git log origin/main..main
 (Push하지 않은 파일 목록 확인)git diff --stat --cached origin/main
 (Push하지 않은 파일 코드 차이 확인)git diff origin/main
 (Push하지 않은 파일 전체 경로 확인) git diff --numstat origin/main
-조기도고치고
-조기도 고치고..
