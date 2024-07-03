@@ -10,4 +10,4 @@ COMMIT      : git commit -m "[V1][KR][임시] 1. 준공자료등록개선 테스
 PUSH        : git push origin archivist_kr_develop_for_test01
 
 cherrypick````````````````2
-cherrypick````````````````1
+cherrypick````````````````3
